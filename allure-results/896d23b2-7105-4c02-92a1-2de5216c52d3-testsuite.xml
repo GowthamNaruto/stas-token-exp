@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665050203049' stop='1665050203131'>
+    <name>test\function_tests\transfer_test2.js</name>
+    <title>test\function_tests\transfer_test2.js</title>
+    <test-cases>
+        <test-case start='1665050203050' status='failed' stop='1665050203097'>
+            <name>Transfer - Successful With Fee 1</name>
+            <title>Transfer - Successful With Fee 1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'vout')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'vout')
+                    at Object.getUtxo (D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\test\utils\test_utils.js:70:22)
+                    at Object.&lt;anonymous> (D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\test\function_tests\transfer_test2.js:35:11)
+                    at Object.asyncJestTest (D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:173:37)
+                    at D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\node_modules\jest-jasmine2\build\queueRunner.js:89:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\node_modules\jest-jasmine2\build\queueRunner.js:72:19)
+                    at D:\AITEMP\Experiments\STATS-Token-test\Stas-js\stas-exp\node_modules\jest-jasmine2\build\queueRunner.js:119:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
